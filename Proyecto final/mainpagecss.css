@@ -13,6 +13,7 @@ tr:nth-child(even) { /*Cambiar las columnas de la tabla, modo zebre*/
 }
 
 th {
+    cursor: pointer;
     background-color: #03718d;
     color: white;
 }
