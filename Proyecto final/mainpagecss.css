@@ -26,9 +26,17 @@ th, td{
 
 tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta se coloreara*/
 
+.ArtistaDestacado img{
+    width: 50px; 
+    height: 50px;
+}
+
 .ArtistaDestacado {
+    position: absolute;
+    left: 0px;
+    top: 140px;
     background-image: "";
-    width: 300px;
+    width: 100px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
