@@ -27,18 +27,45 @@ th, td{
 tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta se coloreara*/
 
 .ArtistaDestacado img{
-    width: 50px; 
-    height: 50px;
+    
+    transition: transform .2s;
+    width:100%;
+    height:100%;
+    /*position: absolute;
+    width: 500px; 
+    height: 500px;
+    top: 0px;
+    left: 10px;
+    max-width: 105%;
+    height: auto; */
+    border-radius: 8px;
 }
 
 .ArtistaDestacado {
     position: absolute;
-    left: 0px;
-    top: 140px;
+    left: 25px;
+    top: 170px;
     background-image: "";
-    width: 100px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-    text-align: left;
+    width: 210px;
+    
+     
+} 
+
+.ArtistaDestacado .textimg{ /*texto de imagen artista destacado*/
+    position: absolute;
+    transition: transform .2s;
+    top: 90%;
+    left: 10%;
+    color:white;
+    font-family:verdana;
+    opacity: 0;
+}
+
+.ArtistaDestacado img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.ArtistaDestacado:hover .textimg{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 1;
 }
