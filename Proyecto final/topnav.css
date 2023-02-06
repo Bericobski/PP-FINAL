@@ -3,9 +3,8 @@
 
 .topnav {
     
-    background-color: rgb(238, 197, 135);
+    background-color: rgb(243, 243, 243);
     overflow: hidden;
-    
     
 }
 
@@ -23,18 +22,19 @@
     text-decoration: none;
     font-size: 24px;
     margin-left: 90px;
-    
+    transition: transform .2s;
 }
 
   
 /* Change the color of links on hover */
 .topnav a:hover{
     background-color: #ddd;
-    color: black;
+    color: black; 
+    transform: scale(1.5);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active{
-    background-color: #04AA6D;
+    background-color: #3e76c0;
     color: white;
 }
