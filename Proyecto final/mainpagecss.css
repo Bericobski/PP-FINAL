@@ -1,5 +1,14 @@
 
 /*Archivo de CSS para editar mas comodo la parte estetica del proyecto*/
+head{
+    text-shadow: none;
+}
+
+.container{
+    width: 100%;
+    
+    padding: 5%;
+}
 
 #infotable {  /*Tabla principal*/
     margin-top: 30px;
