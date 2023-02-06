@@ -28,28 +28,6 @@ th, td{
 
 tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta se coloreara*/
 
-.ArtistaDestacado img{
-    
-    transition: transform .2s;
-    width:100%;
-    height:100%;
-    /*position: absolute;
-    width: 500px; 
-    height: 500px;
-    top: 0px;
-    left: 10px;
-    max-width: 105%;
-    height: auto; */
-    border-radius: 8px;
-}
-
-.ArtistaDestacado {
-    position: absolute;
-    left: 25px;
-    top: 1140px;
-    background-image: "";
-    width: 210px;  
-} 
 
 .mainimage {
     
@@ -78,6 +56,27 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     height:100%;
 }
 
+
+
+
+
+/*ARTISTA DESTACADO*/
+
+
+#artist1 {
+    left: 25px;
+    top: 1140px;
+}
+
+#artist2{
+    left: 1600px;
+    top: 1140px;
+}
+
+
+
+
+
 .ArtistaDestacado .textimg{ /*texto de imagen artista destacado*/
     position: absolute;
     transition: transform .2s;
@@ -93,19 +92,13 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 }
 
 
-
-
 .ArtistaDestacado:hover .textimg{
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     opacity: 1;
 }
 
 
-
-/*ARTISTA DESTACADO DERECHA*/
-
-
-.ArtistaDestacado2 img{
+.ArtistaDestacado img{
     
     transition: transform .2s;
     width:100%;
@@ -120,34 +113,23 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     border-radius: 8px;
 }
 
-.ArtistaDestacado2 {
+.ArtistaDestacado {
     position: absolute;
-    left: 1600px;
-    top: 1140px;
     background-image: "";
     width: 210px;  
 } 
 
 
 
-.ArtistaDestacado2 .textimg{ /*texto de imagen artista destacado*/
-    position: absolute;
-    transition: transform .2s;
-    top: 90%;
-    left: 10%;
-    color:white;
-    font-family:verdana;
-    opacity: 0;
-}
-
-.ArtistaDestacado2 img:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 
 
 
 
-.ArtistaDestacado2:hover .textimg{
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    opacity: 1;
-}
+
+
+
+
+
+
+
+

@@ -13,4 +13,6 @@ body {
 
 body{
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(227, 229, 252));
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
 }
