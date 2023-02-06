@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .topnav {
+    background-color: rgb(243, 243, 243);
     font-family: "Montserrat", sans-serif;
     max-width: 1280px;
     width: 90%;
@@ -33,7 +34,7 @@
 .topnav a:hover{
     background-color: #ddd;
     color: black; 
-    transform: scale(1.5);
+    /*transform: scale(1.5);*/
 }
 
 /* Add a color to the active/current link */
