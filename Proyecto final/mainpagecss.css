@@ -41,9 +41,9 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 .mainimage {
     
     position: relative;
-    left: 150px;
+    left: 0px;
     top: 30px;
-    width: 80%; 
+    width: 100%; 
     transition: width 2s;
     
 }
@@ -82,12 +82,12 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 
 #artist1 {
     left: 25px;
-    top: 1140px;
+    
 }
 
 #artist2{
     left: 1600px; 
-    top: 1140px;  
+    
 }
 
 
@@ -135,6 +135,7 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     top: 1300px;
     background-image: "";
     width: 210px;  
+    top: 1500px;  
 } 
 
 
