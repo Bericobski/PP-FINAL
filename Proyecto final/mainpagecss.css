@@ -14,11 +14,12 @@ head{
     margin-top: 30px;
     width: 70%;
     margin-left: 250px;
+    
 } 
 
 
 tr:nth-child(even) { /*Cambiar las columnas de la tabla, modo zebre*/
-    background: rgb(206, 155, 155);
+    background: rgb(250, 200, 124);
 }
 
 th {
@@ -70,8 +71,7 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 
 #tabletitle {
     margin-top: 80px;
-    position: relative;
-    left: 400px;
+    text-align: center;
     font-size: 50px;
     font-family:verdana;
 }
@@ -87,7 +87,6 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 
 #artist2{
     left: 1600px; 
-    
 }
 
 
@@ -133,7 +132,6 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
 .ArtistaDestacado {
     position: absolute;
     top: 1300px;
-    background-image: "";
     width: 210px;  
     top: 1500px;  
 } 
