@@ -4,3 +4,14 @@ main{
     text-align: center;
 }
 
+.button{
+    background-color: rgb(69, 58, 228);
+    border-radius: 8px;
+    color: white;
+    font-family:verdana;
+}
+
+.button:hover {
+    color: rgb(69, 58, 228);
+    background-color: white;
+}
