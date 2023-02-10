@@ -9,9 +9,9 @@ main{
 
 .button{
     margin-top: 15px;
-    background-color:rgb(69, 58, 228);
+    background-color:rgb(88, 91, 238);
     /*background-color:#3e76c0;*/
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
     font-family:verdana;
 }

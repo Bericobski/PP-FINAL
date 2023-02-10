@@ -4,6 +4,9 @@ head{
     text-shadow: none;
 }
 
+main{
+    margin-top: 107px;
+}
 
 .container{
     width: 100%;
@@ -15,10 +18,17 @@ head{
     margin-top: 30px;
     width: 70%;
     margin-left: 250px;
-    
-
-   
+     
 } 
+
+#links{
+    color: rgb(80, 56, 184);
+    
+}
+
+#links:hover{
+    color: aliceblue;
+}
 
 
 tr:nth-child(even) { /*Cambiar las columnas de la tabla, modo zebre*/
