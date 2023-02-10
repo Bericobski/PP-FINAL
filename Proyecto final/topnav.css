@@ -23,7 +23,7 @@
 
 .topnav a {
     float: left;
-    color: #838383;
+    color: #5e5e5e;
     text-align: center;
     padding: 14px 96px;
     text-decoration: none;
@@ -35,7 +35,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover{
-    background-color: #ddd;
+    background-color: #fafafa;
     color: black; 
     border-radius: 10px;
     transform: scale(1.1);
