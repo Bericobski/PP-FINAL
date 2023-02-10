@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+}
+
+.question{
+    font-family:verdana;
+    font-size: 23px;
+} 
+
+.question::first-letter{
+    font-size: 42px;
+    color: rgb(69, 58, 228);
+    font-family: "Times New Roman", Times, serif;;
+}
+
+.answer{
+    font-family:verdana;
+    padding-bottom: 30px;
+} 
+
+.answer::first-letter{
+    font-size: 25px;
+    color: rgb(216, 134, 11); 
+    font-family: "Times New Roman", Times, serif;;
+}
