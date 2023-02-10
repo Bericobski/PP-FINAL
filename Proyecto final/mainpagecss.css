@@ -4,6 +4,7 @@ head{
     text-shadow: none;
 }
 
+
 .container{
     width: 100%;
     
@@ -62,7 +63,7 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     position: absolute;
     top: 40px;
     left: 150px;
-    color:rgb(0, 0, 0);
+    color:rgb(17, 17, 17);
     font-family:verdana;
     font-size: 80px;
     width:100%;
