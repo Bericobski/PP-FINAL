@@ -15,14 +15,19 @@ main{
 }
 
 #infotable {  /*Tabla principal*/
-    margin-top: 30px;
     width: 70%;
+    margin-top: 30px;
+    margin-bottom: 70px;
     margin-left: 250px;
-     
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 } 
 
 #links{
-    color: rgb(80, 56, 184);
+    color: rgb(53, 93, 179);
+    text-decoration: none;
+    font-weight: 600;
     
 }
 
@@ -158,6 +163,38 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     border-right-width: 10px;
     border-color: #03718d;
 } 
+
+footer{
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.section{
+    position: relative;
+    display: flex
+}
+.Freelanger{
+    color: rgb(109, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    top: 0px;
+    
+}
+.icons{
+    color: rgb(88, 88, 88);
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    width: 1000px;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 200px;    
+    
+    
+}
 
 
 

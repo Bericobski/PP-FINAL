@@ -20,3 +20,32 @@ main{
     color: #3e76c0;
     background-color: white;
 }
+
+footer{
+    margin-top: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.section{
+    position: relative;
+    display: flex
+}
+.Freelanger{
+    color: rgb(88, 88, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.icons{
+    color: rgb(88, 88, 88);
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    width: 1000px;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 200px;    
+    
+    
+}
