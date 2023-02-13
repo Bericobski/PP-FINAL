@@ -143,21 +143,13 @@ tr:hover {background-color: coral;} /*Cuando el mouse se pose en una fila, esta 
     transition: transform .2s;
     width:100%;
     height:100%;
-    /*position: absolute;
-    width: 500px; 
-    height: 500px;
-    top: 0px;
-    left: 10px;
-    max-width: 105%;
-    height: auto; */
     border-radius: 8px;
 }
 
 .ArtistaDestacado {
     position: absolute;
-    top: 1300px;
     width: 210px;  
-    top: 1500px;  
+    top: 1520px;  
 
     border-style: double;
     border-width: 10px;

@@ -1,16 +1,4 @@
 
-/*
-body {
-    height: 800px;
-    
-    background-image: url("imagenes/fondohtml.png ");
-    background-size: 2000px 2000px;
-    background-color: rgb(255, 255, 255); 
-    background-repeat: no-repeat;
-    
-} 
-*/
-
 body{
     background-image: linear-gradient( to top, rgba(255,0,0,0), rgb(227, 229, 252));
     background-size: auto;
